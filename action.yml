@@ -1,5 +1,5 @@
 name: "Dokku Deploy action"
-author: "Ido Berkovich"
+author: "Akshay Jayan"
 description: "Deploy to a dokku instance using Github actions"
 branding:
   icon: "upload-cloud"
@@ -19,9 +19,9 @@ inputs:
     description: "The dokku app name"
     required: true
   remote-branch:
-    description: "The branch to push on the remote repository (Default: master)"
+    description: "The branch to push on the remote repository (Default: main)"
     required: false
-    default: "master"
+    default: "main"
   git-push-flags:
     description: "Additional flags to be passed to the git push command. Could be used to force push"
     required: false
